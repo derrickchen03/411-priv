@@ -1,0 +1,61 @@
+AGILE
+Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+Epic: Onboarding experience 
+
+1.
+User Story 1
+	As a vanilla git power-user that has never seen GiggleGit before, I want to see how GiggleGit differs from Git, so I can decide what is best for me.
+
+User Story 2
+	As a team lead onboarding an experienced GiggleGit user, I want to quickly guide them through our own oboarding process, so they can get situated and productive to collaborate with the team as soon as possible.
+
+2.
+User Story
+	As a new user exploring GiggleGit, I want to access some form of quick-start guide, so that I can understand the key features and pros of GiggleGit.
+
+Task 1
+	Create a quick-start guide
+		We need to document GiggleGit's core features in an easily readable format and provide a walkthrough for new users
+Task 2
+	Make quick-start guide prominent on homepage
+		We need to include a link on the homepage, and make it prominently viewable to make it easy for new users to find.
+	
+3.
+This is not a user story as it does not explain the benefits of implementing this feature. It lacks clear motivation, and thus the team would not be able to properly rank and prioritize the feature for implementation. Though, it has the semblances of one, it does not make it clear WHY the feature should be implemented.
+
+Example User Story
+	As a user, I want to be able to authenticate on a new machine, so that I can continue my work on different machines at different locations without any hassle.
+	
+FORMAL REQUIREMENTS
+Goal
+	Create a user-friendly tool called SnickerSync that allows users to control repository changes in a fun way, integrating itself with vanilla GiggleGit
+	
+Non-goal
+	Replace traditional GiggleGit tools for more-advanced users seeking comparable options.
+	
+	
+Non-functional Requirements
+1.
+Access Control
+	Who has the correct permissions to view the SnickerSync changes?
+	How do we know who has the correct permissions?
+
+Functional Requirements
+	The system needs to verify user credentials and permissions before granting access to view SnickerSync
+	SnickerSync should only be accessible if the user is verified to have access to the corresponding repository
+
+2.
+Maintainability
+	How will PM's manage different snickering concepts and versions?
+	What interface will PM's use for this?
+	
+Functional Requirements
+	The system should have some sort of End-User Interface for PM's to manage, track, and make changes through SnickerSnyc. Some sort of version-control or rollback included?
+	The system should correspondingly update SnickerSync and the GiggleGit repository with changes made by the PM within a reasonable time (10m?)
+	
+
+GPT PROMPTS USED:
+	Give me an example of a user story given the story of a replacement for Git called GiggleGit.
+	What is a task in this context?
+	Given the system of GiggleGit, a new system called SnickerSync is introduced, where syncs are managed with a snicker. What would be a goal and non-goal?
+		Example of functional and non-functional requirements?
